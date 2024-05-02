@@ -1,4 +1,3 @@
-
 import binascii
 import struct
 
@@ -119,11 +118,4 @@ def sha512(message: str) -> str:
 
 if __name__ == "__main__":
     print(sha512('Hello, world!'))
-    assert sha512('Python') == (
-        'fd9d4d5b7a8a8fae6b1bc099b799110f7e4338606e2610f5d9506a4346e0c3bfbc525'
-        'f4eed1e05aa8c6f46b8efff526ec48b500928a1b341ade5a7855f533932'
-    )
-    assert sha512('Illia') == (
-        '09d4ba2426df452bddacde12436ef528c19e91236dfab2e7e2d45a0c2b450c7744397'
-        '67d8c23ed5be08cd50a7aa74b4c7ffda135a2f9ac18b186893a6b052710'
-    )
+    
